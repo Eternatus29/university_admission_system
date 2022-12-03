@@ -50,13 +50,13 @@
 	float: right;
 }
 
-header .btn-app {
+header button {
 	border-radius: 10px;
 	padding: 1% 5%;
 	border: none;
 }
 
-header .btn-app:hover {
+header button:hover {
 	background-color: rgba(256,200,100);
 }
 
