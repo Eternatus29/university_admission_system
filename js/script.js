@@ -5,10 +5,12 @@ window.onscroll = function () {
 
 function scrollFunction() {
 	if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-		document.getElementById("navbar").style.padding = "30px 10px";
-		document.getElementById("logo").style.fontSize = "25px";
+        document.getElementById("navbar").style.padding = "30px 10px";
+        document.getElementById("navbar").style.background = "rgb(256,100,100)";
+        document.getElementById("logo").style.fontSize = "25px";
 	} else {
 		document.getElementById("navbar").style.padding = "80px 10px";
+        document.getElementById("navbar").style.background = "rgba(0, 0, 0, 0.2)";
 		document.getElementById("logo").style.fontSize = "35px";
 	}
 }
